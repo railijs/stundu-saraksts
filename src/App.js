@@ -1,3 +1,25 @@
+import Diena from "./Diena.js";
+
+const pirmdienasStundas = [
+  "sportsman",
+  "dabaszinibas",
+  "vesture",
+  "krievu val",
+];
+
+const otrdienasStundas = [
+  "matematika",
+  "datorsistema",
+  "dabaszinibas",
+  "matematika",
+];
+
 export default function App() {
-  return <div>te bus stundu saraksts</div>;
+  return (
+    <>
+      <div></div>
+      <Diena diena="Pirmdiena" stundas={pirmdienasStundas} />
+      <Diena diena="otrdiena" stundas={otrdienasStundas} />
+    </>
+  );
 }
