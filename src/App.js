@@ -14,6 +14,10 @@ const otrdienasStundas = [
   "matematika",
 ];
 
+const visasStundas = {
+  pirmdiena: ["sports", "daba", "vesturiks", "krievja"],
+};
+
 export default function App() {
   return (
     <>
