@@ -1,0 +1,12 @@
+:root {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  border: 200px;
+  border-color: black;
+}
